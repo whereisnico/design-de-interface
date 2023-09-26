@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartão</title>
     <style>
-        gtml,body{font-size: 16px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        html,body{font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+            .cartao{ 
+                width: 12rem;
+            height: 27.3rem;
+        padding: 1rem;
+        margin: 1rem auto;
+        border-radius: .7rem;
+        border: .1rem #ffb5cd solid;
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .imagem {
+        height: 11.5rem;
+        width: 11.5rem;
+        align-items: center;
+    }
+    .titulo{ margin: 0 0 .5rem 0;
+    color: #e495ae;
+    text-align: center;
+    }
+    
+
+    footer{
+display: flex;
+justify-content: space-between;
+}
+button {
+color: rgb(0, 0, 0);
+padding: .1rem 1rem;
+background-color: white;
+border-radius: .7rem;
+border: .1rem #ffb5cd solid ; }
+
     </style>
 </head>
 <body>
@@ -14,12 +47,14 @@
 <div class="cartao">
     <h1 class="titulo">Hello Kitty</h1>
     <div class="corpo">
-        <img src="2a33dd877758326eae0ec1a3c6ce829f.jpg" alt="hello kitty pulando feliz" class="imagem">
-        <p>Hello Kitty was created in 1974 and the first item, a vinyl coin purse, was introduced in 1975.Originally Hello Kitty was only marketed towards pre-teenage girls, but beginning in the 1990s, the brand found commercial success among teenage and adult consumers as well. Hello Kitty's popularity also grew with the emergence of kawaii (cute) culture. The brand went into decline in Japan after the 1990s, but continued to grow in the international market. By 2010 the character was worth $5 billion a year and The New York Times called her a "global marketing phenomenon". By 2014, when Hello Kitty was 40 years old, she was worth about $8 billion a year.
+        <img src="hellokitty-removebg-preview.png" alt="hello kitty pulando feliz" class="imagem">
+        <p>Hello Kitty was created in 1974 and the first item, a vinyl coin purse, was introduced in 1975.Originally Hello Kitty was only marketed towards pre-teenage girls.
         
         </p>
     </div>
-    <footer class="rodape"></footer>
+    <footer class="rodape">
+        <button>Extra</button>
+    </footer>
 </div>
 
 
